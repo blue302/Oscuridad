@@ -1,443 +1,14 @@
-Mon Nov 20 12:58:01 2023
+Thu Nov 23 06:09:13 2023
 Windows-10-10.0.22621
 Ren'Py 8.1.3.23091805
  
 
 Bootstrap to the start of init.init. took 0.04s
 Early init. took 0.00s
-Loader init. took 0.14s
-Loading error handling. took 0.09s
-Loading script. took 0.99s
-Loading save slot metadata. took 0.24s
-Loading persistent. took 0.00s
-
-File "game/script.rpy", line 2: invalid syntax
-    def inventoryUpdate(st)
-DPI scale factor: 1.000000
-nvdrs: Loaded, about to disable thread optimizations.
-nvdrs: b"Couldn't load nvlib." (can be ignored)
-Interface start. took 0.10s
-
-Initializing gl2 renderer:
-primary display bounds: (0, 0, 1920, 1080)
-swap interval: 1 frames
-Windowed mode.
-Vendor: "b'ATI Technologies Inc.'"
-Renderer: b'Radeon RX 580 Series'
-Version: b'4.6.0 Compatibility Profile Context 22.20.27.09.230330'
-Display Info: None
-Screen sizes: virtual=(1280, 720) physical=(1268, 713) drawable=(1268, 713)
-Maximum texture size: 4096x4096
-Resetting cache.
-Bootstrap to the start of init.init. took 69.60s
-Early init. took 0.00s
 Loader init. took 0.02s
-Loading error handling. took 0.04s
-Loading script. took 0.86s
-Loading save slot metadata. took 0.02s
-Loading persistent. took 0.00s
-
-File "game/script.rpy", line 4: invalid syntax
-    def inventoryEvents(event,x,y,at)
-DPI scale factor: 1.000000
-nvdrs: Loaded, about to disable thread optimizations.
-nvdrs: b"Couldn't load nvlib." (can be ignored)
-Interface start. took 0.07s
-
-Initializing gl2 renderer:
-primary display bounds: (0, 0, 1920, 1080)
-swap interval: 1 frames
-Windowed mode.
-Vendor: "b'ATI Technologies Inc.'"
-Renderer: b'Radeon RX 580 Series'
-Version: b'4.6.0 Compatibility Profile Context 22.20.27.09.230330'
-Display Info: None
-Screen sizes: virtual=(1280, 720) physical=(1268, 713) drawable=(1268, 713)
-Maximum texture size: 4096x4096
-Resetting cache.
-Bootstrap to the start of init.init. took 85.08s
-Early init. took 0.00s
-Loader init. took 0.02s
-Loading error handling. took 0.04s
-Loading script. took 0.87s
-Loading save slot metadata. took 0.02s
-Loading persistent. took 0.00s
-Running init code. took 0.11s
-Loading analysis data. took 0.02s
-Analyze and compile ATL. took 0.00s
-Reloading save slot metadata. took 0.10s
-Index archives took 0.00s
-Backing up script files to 'C:\\Users\\Joseph Nogales\\AppData\\Roaming/RenPy/backups\\second':
-Dump and make backups. took 0.06s
-Cleaning cache. took 0.00s
-Making clean stores. took 0.00s
-Initial gc. took 0.03s
-DPI scale factor: 1.000000
-nvdrs: Loaded, about to disable thread optimizations.
-nvdrs: b"Couldn't load nvlib." (can be ignored)
-Creating interface object. took 0.00s
-Cleaning stores took 0.00s
-Init translation took 0.04s
-Build styles took 0.00s
-Load screen analysis took 0.06s
-Analyze screens took 0.01s
-Save screen analysis took 0.02s
-Prepare screens took 0.07s
-Save pyanalysis. took 0.01s
-Save bytecode. took 0.01s
-Running _start took 0.00s
-Performance test:
-Interface start. took 0.05s
-
-Initializing gl2 renderer:
-primary display bounds: (0, 0, 1920, 1080)
-swap interval: 1 frames
-Windowed mode.
-Vendor: "b'ATI Technologies Inc.'"
-Renderer: b'Radeon RX 580 Series'
-Version: b'4.6.0 Compatibility Profile Context 22.20.27.09.230330'
-Display Info: None
-Screen sizes: virtual=(1280, 720) physical=(1268, 713) drawable=(1268, 713)
-Maximum texture size: 4096x4096
-
-Full traceback:
-  File "game/script.rpy", line 50, in script
-    $config.rollback_enabled = false
-  File "F:\Desktop\renpy-8.1.3-sdk\renpy\ast.py", line 1138, in execute
-    renpy.python.py_exec_bytecode(self.code.bytecode, self.hide, store=self.store)
-  File "F:\Desktop\renpy-8.1.3-sdk\renpy\python.py", line 1122, in py_exec_bytecode
-    exec(bytecode, globals, locals)
-  File "game/script.rpy", line 50, in <module>
-    $config.rollback_enabled = false
-NameError: name 'false' is not defined
-
-While running game code:
-  File "game/script.rpy", line 50, in script
-    $config.rollback_enabled = false
-  File "game/script.rpy", line 50, in <module>
-    $config.rollback_enabled = false
-NameError: name 'false' is not defined
-Resetting cache.
-Bootstrap to the start of init.init. took 177.19s
-Early init. took 0.00s
-Loader init. took 0.02s
-Loading error handling. took 0.02s
-Loading script. took 0.09s
-Loading save slot metadata. took 0.02s
-Loading persistent. took 0.00s
-Running init code. took 0.03s
-Loading analysis data. took 0.01s
-Analyze and compile ATL. took 0.00s
-Reloading save slot metadata. took 0.02s
-Index archives took 0.00s
-Backing up script files to 'C:\\Users\\Joseph Nogales\\AppData\\Roaming/RenPy/backups\\second':
-Dump and make backups. took 0.08s
-Cleaning cache. took 0.00s
-Making clean stores. took 0.00s
-Initial gc. took 0.04s
-DPI scale factor: 1.000000
-nvdrs: Loaded, about to disable thread optimizations.
-nvdrs: b"Couldn't load nvlib." (can be ignored)
-Creating interface object. took 0.00s
-Cleaning stores took 0.00s
-Init translation took 0.04s
-Build styles took 0.00s
-Load screen analysis took 0.00s
-Analyze screens took 0.01s
-Save screen analysis took 0.02s
-Prepare screens took 0.08s
-Save pyanalysis. took 0.01s
-Save bytecode. took 0.01s
-Running _start took 0.00s
-Performance test:
-Interface start. took 0.04s
-
-Initializing gl2 renderer:
-primary display bounds: (0, 0, 1920, 1080)
-swap interval: 1 frames
-Windowed mode.
-Vendor: "b'ATI Technologies Inc.'"
-Renderer: b'Radeon RX 580 Series'
-Version: b'4.6.0 Compatibility Profile Context 22.20.27.09.230330'
-Display Info: None
-Screen sizes: virtual=(1280, 720) physical=(1268, 713) drawable=(1268, 713)
-Maximum texture size: 4096x4096
-
-Full traceback:
-  File "game/script.rpy", line 53, in script
-    $config.rollback_enabled = false
-  File "F:\Desktop\renpy-8.1.3-sdk\renpy\ast.py", line 1138, in execute
-    renpy.python.py_exec_bytecode(self.code.bytecode, self.hide, store=self.store)
-  File "F:\Desktop\renpy-8.1.3-sdk\renpy\python.py", line 1122, in py_exec_bytecode
-    exec(bytecode, globals, locals)
-  File "game/script.rpy", line 53, in <module>
-    $config.rollback_enabled = false
-NameError: name 'false' is not defined
-
-While running game code:
-  File "game/script.rpy", line 53, in script
-    $config.rollback_enabled = false
-  File "game/script.rpy", line 53, in <module>
-    $config.rollback_enabled = false
-NameError: name 'false' is not defined
-Resetting cache.
-Bootstrap to the start of init.init. took 179.27s
-Early init. took 0.00s
-Loader init. took 0.02s
-Loading error handling. took 0.02s
-Loading script. took 0.08s
-Loading save slot metadata. took 0.02s
-Loading persistent. took 0.00s
-Running init code. took 0.03s
-Loading analysis data. took 0.01s
-Analyze and compile ATL. took 0.00s
-Reloading save slot metadata. took 0.02s
-Index archives took 0.00s
-Dump and make backups. took 0.05s
-Cleaning cache. took 0.00s
-Making clean stores. took 0.00s
-Initial gc. took 0.04s
-DPI scale factor: 1.000000
-nvdrs: Loaded, about to disable thread optimizations.
-nvdrs: b"Couldn't load nvlib." (can be ignored)
-Creating interface object. took 0.00s
-Cleaning stores took 0.00s
-Init translation took 0.05s
-Build styles took 0.00s
-Load screen analysis took 0.03s
-Analyze screens took 0.00s
-Save screen analysis took 0.00s
-Prepare screens took 0.08s
-Save pyanalysis. took 0.00s
-Save bytecode. took 0.00s
-Running _start took 0.00s
-Performance test:
-Interface start. took 0.05s
-
-Initializing gl2 renderer:
-primary display bounds: (0, 0, 1920, 1080)
-swap interval: 1 frames
-Windowed mode.
-Vendor: "b'ATI Technologies Inc.'"
-Renderer: b'Radeon RX 580 Series'
-Version: b'4.6.0 Compatibility Profile Context 22.20.27.09.230330'
-Display Info: None
-Screen sizes: virtual=(1280, 720) physical=(1268, 713) drawable=(1268, 713)
-Maximum texture size: 4096x4096
-
-Full traceback:
-  File "game/script.rpy", line 53, in script
-    $config.rollback_enabled = false
-  File "F:\Desktop\renpy-8.1.3-sdk\renpy\ast.py", line 1138, in execute
-    renpy.python.py_exec_bytecode(self.code.bytecode, self.hide, store=self.store)
-  File "F:\Desktop\renpy-8.1.3-sdk\renpy\python.py", line 1122, in py_exec_bytecode
-    exec(bytecode, globals, locals)
-  File "game/script.rpy", line 53, in <module>
-    $config.rollback_enabled = false
-NameError: name 'false' is not defined
-
-While running game code:
-  File "game/script.rpy", line 53, in script
-    $config.rollback_enabled = false
-  File "game/script.rpy", line 53, in <module>
-    $config.rollback_enabled = false
-NameError: name 'false' is not defined
-Resetting cache.
-Bootstrap to the start of init.init. took 233.52s
-Early init. took 0.00s
-Loader init. took 0.02s
-Loading error handling. took 0.02s
-Loading script. took 0.10s
-Loading save slot metadata. took 0.02s
-Loading persistent. took 0.00s
-Running init code. took 0.03s
-Loading analysis data. took 0.01s
-Analyze and compile ATL. took 0.00s
-Reloading save slot metadata. took 0.02s
-Index archives took 0.00s
-Backing up script files to 'C:\\Users\\Joseph Nogales\\AppData\\Roaming/RenPy/backups\\second':
-Dump and make backups. took 0.05s
-Cleaning cache. took 0.00s
-Making clean stores. took 0.00s
-Initial gc. took 0.04s
-DPI scale factor: 1.000000
-nvdrs: Loaded, about to disable thread optimizations.
-nvdrs: b"Couldn't load nvlib." (can be ignored)
-Creating interface object. took 0.00s
-Cleaning stores took 0.00s
-Init translation took 0.04s
-Build styles took 0.00s
-Load screen analysis took 0.00s
-Analyze screens took 0.01s
-Save screen analysis took 0.02s
-Prepare screens took 0.08s
-Save pyanalysis. took 0.00s
-Save bytecode. took 0.02s
-Running _start took 0.00s
-Performance test:
-Interface start. took 0.05s
-
-Initializing gl2 renderer:
-primary display bounds: (0, 0, 1920, 1080)
-swap interval: 1 frames
-Windowed mode.
-Vendor: "b'ATI Technologies Inc.'"
-Renderer: b'Radeon RX 580 Series'
-Version: b'4.6.0 Compatibility Profile Context 22.20.27.09.230330'
-Display Info: None
-Screen sizes: virtual=(1280, 720) physical=(1268, 713) drawable=(1268, 713)
-Maximum texture size: 4096x4096
-
-Full traceback:
-  File "game/script.rpy", line 53, in script
-    $config.rollback_enabled = false
-  File "F:\Desktop\renpy-8.1.3-sdk\renpy\ast.py", line 1138, in execute
-    renpy.python.py_exec_bytecode(self.code.bytecode, self.hide, store=self.store)
-  File "F:\Desktop\renpy-8.1.3-sdk\renpy\python.py", line 1122, in py_exec_bytecode
-    exec(bytecode, globals, locals)
-  File "game/script.rpy", line 53, in <module>
-    $config.rollback_enabled = false
-NameError: name 'false' is not defined
-
-While running game code:
-  File "game/script.rpy", line 53, in script
-    $config.rollback_enabled = false
-  File "game/script.rpy", line 53, in <module>
-    $config.rollback_enabled = false
-NameError: name 'false' is not defined
-Resetting cache.
-Bootstrap to the start of init.init. took 741.47s
-Early init. took 0.00s
-Loader init. took 0.02s
-Loading error handling. took 0.02s
-Loading script. took 0.09s
-Loading save slot metadata. took 0.02s
-Loading persistent. took 0.00s
-Running init code. took 0.03s
-Loading analysis data. took 0.01s
-Analyze and compile ATL. took 0.00s
-Reloading save slot metadata. took 0.02s
-Index archives took 0.00s
-Backing up script files to 'C:\\Users\\Joseph Nogales\\AppData\\Roaming/RenPy/backups\\second':
-Dump and make backups. took 0.05s
-Cleaning cache. took 0.00s
-Making clean stores. took 0.00s
-Initial gc. took 0.04s
-DPI scale factor: 1.000000
-nvdrs: Loaded, about to disable thread optimizations.
-nvdrs: b"Couldn't load nvlib." (can be ignored)
-Creating interface object. took 0.00s
-Cleaning stores took 0.00s
-Init translation took 0.05s
-Build styles took 0.00s
-Load screen analysis took 0.00s
-Analyze screens took 0.01s
-Save screen analysis took 0.02s
-Prepare screens took 0.08s
-Save pyanalysis. took 0.00s
-Save bytecode. took 0.02s
-Running _start took 0.00s
-Performance test:
-Interface start. took 0.04s
-
-Initializing gl2 renderer:
-primary display bounds: (0, 0, 1920, 1080)
-swap interval: 1 frames
-Windowed mode.
-Vendor: "b'ATI Technologies Inc.'"
-Renderer: b'Radeon RX 580 Series'
-Version: b'4.6.0 Compatibility Profile Context 22.20.27.09.230330'
-Display Info: None
-Screen sizes: virtual=(1280, 720) physical=(1268, 713) drawable=(1268, 713)
-Maximum texture size: 4096x4096
-
-Full traceback:
-  File "game/script.rpy", line 53, in script
-    $config.rollback_enabled = false
-  File "F:\Desktop\renpy-8.1.3-sdk\renpy\ast.py", line 1138, in execute
-    renpy.python.py_exec_bytecode(self.code.bytecode, self.hide, store=self.store)
-  File "F:\Desktop\renpy-8.1.3-sdk\renpy\python.py", line 1122, in py_exec_bytecode
-    exec(bytecode, globals, locals)
-  File "game/script.rpy", line 53, in <module>
-    $config.rollback_enabled = false
-NameError: name 'false' is not defined
-
-While running game code:
-  File "game/script.rpy", line 53, in script
-    $config.rollback_enabled = false
-  File "game/script.rpy", line 53, in <module>
-    $config.rollback_enabled = false
-NameError: name 'false' is not defined
-Resetting cache.
-Bootstrap to the start of init.init. took 1140.61s
-Early init. took 0.00s
-Loader init. took 0.02s
-Loading error handling. took 0.02s
-Loading script. took 0.10s
-Loading save slot metadata. took 0.02s
-Loading persistent. took 0.00s
-Running init code. took 0.03s
-Loading analysis data. took 0.01s
-Analyze and compile ATL. took 0.00s
-Reloading save slot metadata. took 0.02s
-Index archives took 0.00s
-Backing up script files to 'C:\\Users\\Joseph Nogales\\AppData\\Roaming/RenPy/backups\\second':
-Dump and make backups. took 0.05s
-Cleaning cache. took 0.00s
-Making clean stores. took 0.00s
-Initial gc. took 0.04s
-DPI scale factor: 1.000000
-nvdrs: Loaded, about to disable thread optimizations.
-nvdrs: b"Couldn't load nvlib." (can be ignored)
-Creating interface object. took 0.00s
-Cleaning stores took 0.00s
-Init translation took 0.04s
-Build styles took 0.00s
-Load screen analysis took 0.00s
-Analyze screens took 0.01s
-Save screen analysis took 0.02s
-Prepare screens took 0.08s
-Save pyanalysis. took 0.00s
-Save bytecode. took 0.02s
-Running _start took 0.00s
-Performance test:
-Interface start. took 0.05s
-
-Initializing gl2 renderer:
-primary display bounds: (0, 0, 1920, 1080)
-swap interval: 1 frames
-Windowed mode.
-Vendor: "b'ATI Technologies Inc.'"
-Renderer: b'Radeon RX 580 Series'
-Version: b'4.6.0 Compatibility Profile Context 22.20.27.09.230330'
-Display Info: None
-Screen sizes: virtual=(1280, 720) physical=(1268, 713) drawable=(1268, 713)
-Maximum texture size: 4096x4096
-
-Full traceback:
-  File "game/script.rpy", line 54, in script
-    $quick_menu = false
-  File "F:\Desktop\renpy-8.1.3-sdk\renpy\ast.py", line 1138, in execute
-    renpy.python.py_exec_bytecode(self.code.bytecode, self.hide, store=self.store)
-  File "F:\Desktop\renpy-8.1.3-sdk\renpy\python.py", line 1122, in py_exec_bytecode
-    exec(bytecode, globals, locals)
-  File "game/script.rpy", line 54, in <module>
-    $quick_menu = false
-NameError: name 'false' is not defined
-
-While running game code:
-  File "game/script.rpy", line 54, in script
-    $quick_menu = false
-  File "game/script.rpy", line 54, in <module>
-    $quick_menu = false
-NameError: name 'false' is not defined
-Resetting cache.
-Bootstrap to the start of init.init. took 1154.56s
-Early init. took 0.00s
-Loader init. took 0.02s
-Loading error handling. took 0.02s
-Loading script. took 0.10s
-Loading save slot metadata. took 0.02s
+Loading error handling. took 0.03s
+Loading script. took 0.13s
+Loading save slot metadata. took 0.03s
 Loading persistent. took 0.00s
 Running init code. took 0.04s
 Loading analysis data. took 0.01s
@@ -448,238 +19,23 @@ Backing up script files to 'C:\\Users\\Joseph Nogales\\AppData\\Roaming/RenPy/ba
 Dump and make backups. took 0.05s
 Cleaning cache. took 0.00s
 Making clean stores. took 0.00s
-Initial gc. took 0.04s
+Initial gc. took 0.02s
 DPI scale factor: 1.000000
 nvdrs: Loaded, about to disable thread optimizations.
 nvdrs: b"Couldn't load nvlib." (can be ignored)
 Creating interface object. took 0.00s
 Cleaning stores took 0.00s
 Init translation took 0.04s
-Build styles took 0.00s
-Load screen analysis took 0.00s
-Analyze screens took 0.01s
-Save screen analysis took 0.02s
-Prepare screens took 0.08s
-Save pyanalysis. took 0.00s
-Save bytecode. took 0.02s
-Running _start took 0.00s
-Performance test:
-Interface start. took 0.05s
-
-Initializing gl2 renderer:
-primary display bounds: (0, 0, 1920, 1080)
-swap interval: 1 frames
-Windowed mode.
-Vendor: "b'ATI Technologies Inc.'"
-Renderer: b'Radeon RX 580 Series'
-Version: b'4.6.0 Compatibility Profile Context 22.20.27.09.230330'
-Display Info: None
-Screen sizes: virtual=(1280, 720) physical=(1268, 713) drawable=(1268, 713)
-Maximum texture size: 4096x4096
-
-Full traceback:
-  File "game/script.rpy", line 16, in script
-    python:
-  File "F:\Desktop\renpy-8.1.3-sdk\renpy\ast.py", line 1138, in execute
-    renpy.python.py_exec_bytecode(self.code.bytecode, self.hide, store=self.store)
-  File "F:\Desktop\renpy-8.1.3-sdk\renpy\python.py", line 1122, in py_exec_bytecode
-    exec(bytecode, globals, locals)
-  File "game/script.rpy", line 20, in <module>
-    t = transform(child=idle_image, zoom=0.5)
-NameError: name 'transform' is not defined
-
-While running game code:
-  File "game/script.rpy", line 16, in script
-    python:
-  File "game/script.rpy", line 20, in <module>
-    t = transform(child=idle_image, zoom=0.5)
-NameError: name 'transform' is not defined
-Resetting cache.
-Bootstrap to the start of init.init. took 1254.23s
-Early init. took 0.00s
-Loader init. took 0.02s
-Loading error handling. took 0.02s
-Loading script. took 0.09s
-Loading save slot metadata. took 0.02s
-Loading persistent. took 0.00s
-
-File "game/script.rpy", line 2: invalid syntax
-    def inventoryUpdate(st)
-DPI scale factor: 1.000000
-nvdrs: Loaded, about to disable thread optimizations.
-nvdrs: b"Couldn't load nvlib." (can be ignored)
-Interface start. took 0.08s
-
-Initializing gl2 renderer:
-primary display bounds: (0, 0, 1920, 1080)
-swap interval: 1 frames
-Windowed mode.
-Vendor: "b'ATI Technologies Inc.'"
-Renderer: b'Radeon RX 580 Series'
-Version: b'4.6.0 Compatibility Profile Context 22.20.27.09.230330'
-Display Info: None
-Screen sizes: virtual=(1280, 720) physical=(1268, 713) drawable=(1268, 713)
-Maximum texture size: 4096x4096
-Resetting cache.
-Bootstrap to the start of init.init. took 1299.40s
-Early init. took 0.00s
-Loader init. took 0.02s
-Loading error handling. took 0.02s
-Loading script. took 0.09s
-Loading save slot metadata. took 0.02s
-Loading persistent. took 0.00s
-Running init code. took 0.04s
-Loading analysis data. took 0.01s
-Analyze and compile ATL. took 0.00s
-Reloading save slot metadata. took 0.02s
-Index archives took 0.00s
-Backing up script files to 'C:\\Users\\Joseph Nogales\\AppData\\Roaming/RenPy/backups\\second':
-Dump and make backups. took 0.05s
-Cleaning cache. took 0.00s
-Making clean stores. took 0.00s
-Initial gc. took 0.03s
-DPI scale factor: 1.000000
-nvdrs: Loaded, about to disable thread optimizations.
-nvdrs: b"Couldn't load nvlib." (can be ignored)
-Creating interface object. took 0.00s
-Cleaning stores took 0.00s
-Init translation took 0.05s
-Build styles took 0.00s
-Load screen analysis took 0.00s
-Analyze screens took 0.01s
-Save screen analysis took 0.02s
-Prepare screens took 0.08s
-Save pyanalysis. took 0.02s
-Save bytecode. took 0.02s
-Running _start took 0.00s
-Performance test:
-Interface start. took 0.04s
-
-Initializing gl2 renderer:
-primary display bounds: (0, 0, 1920, 1080)
-swap interval: 1 frames
-Windowed mode.
-Vendor: "b'ATI Technologies Inc.'"
-Renderer: b'Radeon RX 580 Series'
-Version: b'4.6.0 Compatibility Profile Context 22.20.27.09.230330'
-Display Info: None
-Screen sizes: virtual=(1280, 720) physical=(1268, 713) drawable=(1268, 713)
-Maximum texture size: 4096x4096
-
-Full traceback:
-  File "game/script.rpy", line 52, in script
-    $config.rollback_enabled = false
-  File "F:\Desktop\renpy-8.1.3-sdk\renpy\ast.py", line 1138, in execute
-    renpy.python.py_exec_bytecode(self.code.bytecode, self.hide, store=self.store)
-  File "F:\Desktop\renpy-8.1.3-sdk\renpy\python.py", line 1122, in py_exec_bytecode
-    exec(bytecode, globals, locals)
-  File "game/script.rpy", line 52, in <module>
-    $config.rollback_enabled = false
-NameError: name 'false' is not defined
-
-While running game code:
-  File "game/script.rpy", line 52, in script
-    $config.rollback_enabled = false
-  File "game/script.rpy", line 52, in <module>
-    $config.rollback_enabled = false
-NameError: name 'false' is not defined
-Resetting cache.
-Bootstrap to the start of init.init. took 1440.81s
-Early init. took 0.00s
-Loader init. took 0.02s
-Loading error handling. took 0.02s
-Loading script. took 0.09s
-Loading save slot metadata. took 0.02s
-Loading persistent. took 0.00s
-Running init code. took 0.03s
-Loading analysis data. took 0.01s
-Analyze and compile ATL. took 0.00s
-Reloading save slot metadata. took 0.02s
-Index archives took 0.00s
-Backing up script files to 'C:\\Users\\Joseph Nogales\\AppData\\Roaming/RenPy/backups\\second':
-Dump and make backups. took 0.05s
-Cleaning cache. took 0.00s
-Making clean stores. took 0.00s
-Initial gc. took 0.04s
-DPI scale factor: 1.000000
-nvdrs: Loaded, about to disable thread optimizations.
-nvdrs: b"Couldn't load nvlib." (can be ignored)
-Creating interface object. took 0.00s
-Cleaning stores took 0.00s
-Init translation took 0.04s
-Build styles took 0.00s
-Load screen analysis took 0.00s
-Analyze screens took 0.01s
-Save screen analysis took 0.02s
-Prepare screens took 0.08s
-Save pyanalysis. took 0.00s
-Save bytecode. took 0.02s
-Running _start took 0.00s
-Performance test:
-Interface start. took 0.05s
-
-Initializing gl2 renderer:
-primary display bounds: (0, 0, 1920, 1080)
-swap interval: 1 frames
-Windowed mode.
-Vendor: "b'ATI Technologies Inc.'"
-Renderer: b'Radeon RX 580 Series'
-Version: b'4.6.0 Compatibility Profile Context 22.20.27.09.230330'
-Display Info: None
-Screen sizes: virtual=(1280, 720) physical=(1268, 713) drawable=(1268, 713)
-Maximum texture size: 4096x4096
-
-Full traceback:
-  File "game/script.rpy", line 52, in script
-    $config.rollback_enabled=false
-  File "F:\Desktop\renpy-8.1.3-sdk\renpy\ast.py", line 1138, in execute
-    renpy.python.py_exec_bytecode(self.code.bytecode, self.hide, store=self.store)
-  File "F:\Desktop\renpy-8.1.3-sdk\renpy\python.py", line 1122, in py_exec_bytecode
-    exec(bytecode, globals, locals)
-  File "game/script.rpy", line 52, in <module>
-    $config.rollback_enabled=false
-NameError: name 'false' is not defined
-
-While running game code:
-  File "game/script.rpy", line 52, in script
-    $config.rollback_enabled=false
-  File "game/script.rpy", line 52, in <module>
-    $config.rollback_enabled=false
-NameError: name 'false' is not defined
-Resetting cache.
-Bootstrap to the start of init.init. took 1486.29s
-Early init. took 0.00s
-Loader init. took 0.02s
-Loading error handling. took 0.02s
-Loading script. took 0.09s
-Loading save slot metadata. took 0.02s
-Loading persistent. took 0.00s
-Running init code. took 0.03s
-Loading analysis data. took 0.01s
-Analyze and compile ATL. took 0.00s
-Reloading save slot metadata. took 0.02s
-Index archives took 0.00s
-Backing up script files to 'C:\\Users\\Joseph Nogales\\AppData\\Roaming/RenPy/backups\\second':
-Dump and make backups. took 0.05s
-Cleaning cache. took 0.00s
-Making clean stores. took 0.00s
-Initial gc. took 0.04s
-DPI scale factor: 1.000000
-nvdrs: Loaded, about to disable thread optimizations.
-nvdrs: b"Couldn't load nvlib." (can be ignored)
-Creating interface object. took 0.00s
-Cleaning stores took 0.00s
-Init translation took 0.05s
 Build styles took 0.00s
 Load screen analysis took 0.00s
 Analyze screens took 0.01s
 Save screen analysis took 0.02s
 Prepare screens took 0.09s
-Save pyanalysis. took 0.00s
-Save bytecode. took 0.02s
+Save pyanalysis. took 0.03s
+Save bytecode. took 0.03s
 Running _start took 0.00s
 Performance test:
-Interface start. took 0.05s
+Interface start. took 0.06s
 
 Initializing gl2 renderer:
 primary display bounds: (0, 0, 1920, 1080)
@@ -691,33 +47,60 @@ Version: b'4.6.0 Compatibility Profile Context 22.20.27.09.230330'
 Display Info: None
 Screen sizes: virtual=(1280, 720) physical=(1268, 713) drawable=(1268, 713)
 Maximum texture size: 4096x4096
-
-Full traceback:
-  File "game/script.rpy", line 15, in script
-    python:
-  File "F:\Desktop\renpy-8.1.3-sdk\renpy\ast.py", line 1138, in execute
-    renpy.python.py_exec_bytecode(self.code.bytecode, self.hide, store=self.store)
-  File "F:\Desktop\renpy-8.1.3-sdk\renpy\python.py", line 1122, in py_exec_bytecode
-    exec(bytecode, globals, locals)
-  File "game/script.rpy", line 19, in <module>
-    t = transform(child = idle_image,zoom = 0.5)
-NameError: name 'transform' is not defined
-
-While running game code:
-  File "game/script.rpy", line 15, in script
-    python:
-  File "game/script.rpy", line 19, in <module>
-    t = transform(child = idle_image,zoom = 0.5)
-NameError: name 'transform' is not defined
 Resetting cache.
-Bootstrap to the start of init.init. took 1611.87s
+Bootstrap to the start of init.init. took 20.55s
+Early init. took 0.00s
+Loader init. took 0.02s
+Loading error handling. took 0.03s
+Loading script. took 0.10s
+Loading save slot metadata. took 0.02s
+Loading persistent. took 0.00s
+Running init code. took 0.03s
+Loading analysis data. took 0.01s
+Analyze and compile ATL. took 0.00s
+Reloading save slot metadata. took 0.02s
+Index archives took 0.00s
+Backing up script files to 'C:\\Users\\Joseph Nogales\\AppData\\Roaming/RenPy/backups\\second':
+Dump and make backups. took 0.05s
+Cleaning cache. took 0.00s
+Making clean stores. took 0.00s
+Initial gc. took 0.04s
+DPI scale factor: 1.000000
+nvdrs: Loaded, about to disable thread optimizations.
+nvdrs: b"Couldn't load nvlib." (can be ignored)
+Creating interface object. took 0.00s
+Cleaning stores took 0.00s
+Init translation took 0.04s
+Build styles took 0.00s
+Load screen analysis took 0.00s
+Analyze screens took 0.01s
+Save screen analysis took 0.02s
+Prepare screens took 0.08s
+Save pyanalysis. took 0.00s
+Save bytecode. took 0.02s
+Running _start took 0.00s
+Performance test:
+Interface start. took 0.04s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 1920, 1080)
+swap interval: 1 frames
+Windowed mode.
+Vendor: "b'ATI Technologies Inc.'"
+Renderer: b'Radeon RX 580 Series'
+Version: b'4.6.0 Compatibility Profile Context 22.20.27.09.230330'
+Display Info: None
+Screen sizes: virtual=(1280, 720) physical=(1268, 713) drawable=(1268, 713)
+Maximum texture size: 4096x4096
+Resetting cache.
+Bootstrap to the start of init.init. took 59.93s
 Early init. took 0.00s
 Loader init. took 0.02s
 Loading error handling. took 0.02s
 Loading script. took 0.09s
 Loading save slot metadata. took 0.02s
 Loading persistent. took 0.00s
-Running init code. took 0.03s
+Running init code. took 0.04s
 Loading analysis data. took 0.01s
 Analyze and compile ATL. took 0.00s
 Reloading save slot metadata. took 0.02s
@@ -738,8 +121,8 @@ Load screen analysis took 0.00s
 Analyze screens took 0.01s
 Save screen analysis took 0.02s
 Prepare screens took 0.08s
-Save pyanalysis. took 0.02s
-Save bytecode. took 0.02s
+Save pyanalysis. took 0.00s
+Save bytecode. took 0.01s
 Running _start took 0.00s
 Performance test:
 Interface start. took 0.04s
@@ -754,36 +137,108 @@ Version: b'4.6.0 Compatibility Profile Context 22.20.27.09.230330'
 Display Info: None
 Screen sizes: virtual=(1280, 720) physical=(1268, 713) drawable=(1268, 713)
 Maximum texture size: 4096x4096
-
-Full traceback:
-  File "game/script.rpy", line 17, in script
-    python:
-  File "F:\Desktop\renpy-8.1.3-sdk\renpy\ast.py", line 1138, in execute
-    renpy.python.py_exec_bytecode(self.code.bytecode, self.hide, store=self.store)
-  File "F:\Desktop\renpy-8.1.3-sdk\renpy\python.py", line 1122, in py_exec_bytecode
-    exec(bytecode, globals, locals)
-  File "game/script.rpy", line 21, in <module>
-    t = transform(child=idle_image, zoom=0.5)
-NameError: name 'transform' is not defined
-
-While running game code:
-  File "game/script.rpy", line 17, in script
-    python:
-  File "game/script.rpy", line 21, in <module>
-    t = transform(child=idle_image, zoom=0.5)
-NameError: name 'transform' is not defined
 Resetting cache.
-Bootstrap to the start of init.init. took 1697.76s
+Bootstrap to the start of init.init. took 70.69s
 Early init. took 0.00s
 Loader init. took 0.02s
 Loading error handling. took 0.02s
-Loading script. took 0.08s
+Loading script. took 0.10s
+Loading save slot metadata. took 0.02s
+Loading persistent. took 0.00s
+Running init code. took 0.04s
+Loading analysis data. took 0.01s
+Analyze and compile ATL. took 0.00s
+Reloading save slot metadata. took 0.02s
+Index archives took 0.00s
+Backing up script files to 'C:\\Users\\Joseph Nogales\\AppData\\Roaming/RenPy/backups\\second':
+Dump and make backups. took 0.05s
+Cleaning cache. took 0.00s
+Making clean stores. took 0.00s
+Initial gc. took 0.05s
+DPI scale factor: 1.000000
+nvdrs: Loaded, about to disable thread optimizations.
+nvdrs: b"Couldn't load nvlib." (can be ignored)
+Creating interface object. took 0.00s
+Cleaning stores took 0.00s
+Init translation took 0.05s
+Build styles took 0.00s
+Load screen analysis took 0.00s
+Analyze screens took 0.02s
+Save screen analysis took 0.02s
+Prepare screens took 0.08s
+Save pyanalysis. took 0.00s
+Save bytecode. took 0.01s
+Running _start took 0.00s
+Performance test:
+Interface start. took 0.04s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 1920, 1080)
+swap interval: 1 frames
+Windowed mode.
+Vendor: "b'ATI Technologies Inc.'"
+Renderer: b'Radeon RX 580 Series'
+Version: b'4.6.0 Compatibility Profile Context 22.20.27.09.230330'
+Display Info: None
+Screen sizes: virtual=(1280, 720) physical=(1268, 713) drawable=(1268, 713)
+Maximum texture size: 4096x4096
+Resetting cache.
+Bootstrap to the start of init.init. took 138.69s
+Early init. took 0.00s
+Loader init. took 0.02s
+Loading error handling. took 0.02s
+Loading script. took 0.12s
+Loading save slot metadata. took 0.02s
+Loading persistent. took 0.00s
+Running init code. took 0.04s
+Loading analysis data. took 0.01s
+Analyze and compile ATL. took 0.00s
+Reloading save slot metadata. took 0.02s
+Index archives took 0.00s
+Backing up script files to 'C:\\Users\\Joseph Nogales\\AppData\\Roaming/RenPy/backups\\second':
+Dump and make backups. took 0.05s
+Cleaning cache. took 0.00s
+Making clean stores. took 0.00s
+Initial gc. took 0.05s
+DPI scale factor: 1.000000
+nvdrs: Loaded, about to disable thread optimizations.
+nvdrs: b"Couldn't load nvlib." (can be ignored)
+Creating interface object. took 0.00s
+Cleaning stores took 0.00s
+Init translation took 0.04s
+Build styles took 0.00s
+Load screen analysis took 0.00s
+Analyze screens took 0.01s
+Save screen analysis took 0.02s
+Prepare screens took 0.08s
+Save pyanalysis. took 0.00s
+Save bytecode. took 0.02s
+Running _start took 0.00s
+Performance test:
+Interface start. took 0.05s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 1920, 1080)
+swap interval: 1 frames
+Windowed mode.
+Vendor: "b'ATI Technologies Inc.'"
+Renderer: b'Radeon RX 580 Series'
+Version: b'4.6.0 Compatibility Profile Context 22.20.27.09.230330'
+Display Info: None
+Screen sizes: virtual=(1280, 720) physical=(1268, 713) drawable=(1268, 713)
+Maximum texture size: 4096x4096
+Resetting cache.
+Bootstrap to the start of init.init. took 158.54s
+Early init. took 0.00s
+Loader init. took 0.02s
+Loading error handling. took 0.02s
+Loading script. took 0.09s
 Loading save slot metadata. took 0.02s
 Loading persistent. took 0.00s
 
-File "game/script.rpy", line 49: ATL statement contains two expressions in a row; is one of them a misspelled property? If not, separate them with pass.
-    t "half_size"
-                 ^
+File "game/script.rpy", line 8: screen expects a non-empty block.
+    screen UI:
+              ^
 DPI scale factor: 1.000000
 nvdrs: Loaded, about to disable thread optimizations.
 nvdrs: b"Couldn't load nvlib." (can be ignored)
@@ -800,11 +255,11 @@ Display Info: None
 Screen sizes: virtual=(1280, 720) physical=(1268, 713) drawable=(1268, 713)
 Maximum texture size: 4096x4096
 Resetting cache.
-Bootstrap to the start of init.init. took 1757.59s
+Bootstrap to the start of init.init. took 164.71s
 Early init. took 0.00s
 Loader init. took 0.02s
 Loading error handling. took 0.02s
-Loading script. took 0.09s
+Loading script. took 0.13s
 Loading save slot metadata. took 0.02s
 Loading persistent. took 0.00s
 Running init code. took 0.05s
@@ -822,6 +277,546 @@ nvdrs: Loaded, about to disable thread optimizations.
 nvdrs: b"Couldn't load nvlib." (can be ignored)
 Creating interface object. took 0.00s
 Cleaning stores took 0.00s
+Init translation took 0.04s
+Build styles took 0.00s
+Load screen analysis took 0.00s
+Analyze screens took 0.01s
+Save screen analysis took 0.02s
+Prepare screens took 0.08s
+Save pyanalysis. took 0.00s
+Save bytecode. took 0.02s
+Running _start took 0.00s
+Performance test:
+Interface start. took 0.05s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 1920, 1080)
+swap interval: 1 frames
+Windowed mode.
+Vendor: "b'ATI Technologies Inc.'"
+Renderer: b'Radeon RX 580 Series'
+Version: b'4.6.0 Compatibility Profile Context 22.20.27.09.230330'
+Display Info: None
+Screen sizes: virtual=(1280, 720) physical=(1268, 713) drawable=(1268, 713)
+Maximum texture size: 4096x4096
+Resetting cache.
+Bootstrap to the start of init.init. took 178.53s
+Early init. took 0.00s
+Loader init. took 0.02s
+Loading error handling. took 0.02s
+Loading script. took 0.11s
+Loading save slot metadata. took 0.02s
+Loading persistent. took 0.00s
+Running init code. took 0.04s
+Loading analysis data. took 0.01s
+Analyze and compile ATL. took 0.00s
+Reloading save slot metadata. took 0.02s
+Index archives took 0.00s
+Backing up script files to 'C:\\Users\\Joseph Nogales\\AppData\\Roaming/RenPy/backups\\second':
+Dump and make backups. took 0.05s
+Cleaning cache. took 0.00s
+Making clean stores. took 0.00s
+Initial gc. took 0.05s
+DPI scale factor: 1.000000
+nvdrs: Loaded, about to disable thread optimizations.
+nvdrs: b"Couldn't load nvlib." (can be ignored)
+Creating interface object. took 0.00s
+Cleaning stores took 0.00s
+Init translation took 0.05s
+Build styles took 0.00s
+Load screen analysis took 0.00s
+Analyze screens took 0.01s
+Save screen analysis took 0.02s
+Prepare screens took 0.08s
+Save pyanalysis. took 0.00s
+Save bytecode. took 0.01s
+Running _start took 0.00s
+Performance test:
+Interface start. took 0.04s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 1920, 1080)
+swap interval: 1 frames
+Windowed mode.
+Vendor: "b'ATI Technologies Inc.'"
+Renderer: b'Radeon RX 580 Series'
+Version: b'4.6.0 Compatibility Profile Context 22.20.27.09.230330'
+Display Info: None
+Screen sizes: virtual=(1280, 720) physical=(1268, 713) drawable=(1268, 713)
+Maximum texture size: 4096x4096
+Resetting cache.
+Bootstrap to the start of init.init. took 192.31s
+Early init. took 0.00s
+Loader init. took 0.02s
+Loading error handling. took 0.02s
+Loading script. took 0.11s
+Loading save slot metadata. took 0.02s
+Loading persistent. took 0.00s
+Running init code. took 0.04s
+Loading analysis data. took 0.01s
+Analyze and compile ATL. took 0.00s
+Reloading save slot metadata. took 0.02s
+Index archives took 0.00s
+Backing up script files to 'C:\\Users\\Joseph Nogales\\AppData\\Roaming/RenPy/backups\\second':
+Dump and make backups. took 0.05s
+Cleaning cache. took 0.00s
+Making clean stores. took 0.00s
+Initial gc. took 0.04s
+DPI scale factor: 1.000000
+nvdrs: Loaded, about to disable thread optimizations.
+nvdrs: b"Couldn't load nvlib." (can be ignored)
+Creating interface object. took 0.00s
+Cleaning stores took 0.00s
+Init translation took 0.04s
+Build styles took 0.00s
+Load screen analysis took 0.00s
+Analyze screens took 0.01s
+Save screen analysis took 0.02s
+Prepare screens took 0.08s
+Save pyanalysis. took 0.00s
+Save bytecode. took 0.02s
+Running _start took 0.00s
+Performance test:
+Interface start. took 0.05s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 1920, 1080)
+swap interval: 1 frames
+Windowed mode.
+Vendor: "b'ATI Technologies Inc.'"
+Renderer: b'Radeon RX 580 Series'
+Version: b'4.6.0 Compatibility Profile Context 22.20.27.09.230330'
+Display Info: None
+Screen sizes: virtual=(1280, 720) physical=(1268, 713) drawable=(1268, 713)
+Maximum texture size: 4096x4096
+Resetting cache.
+Bootstrap to the start of init.init. took 200.09s
+Early init. took 0.00s
+Loader init. took 0.02s
+Loading error handling. took 0.02s
+Loading script. took 0.10s
+Loading save slot metadata. took 0.04s
+Loading persistent. took 0.00s
+Running init code. took 0.04s
+Loading analysis data. took 0.01s
+Analyze and compile ATL. took 0.00s
+Reloading save slot metadata. took 0.02s
+Index archives took 0.00s
+Backing up script files to 'C:\\Users\\Joseph Nogales\\AppData\\Roaming/RenPy/backups\\second':
+Dump and make backups. took 0.05s
+Cleaning cache. took 0.00s
+Making clean stores. took 0.00s
+Initial gc. took 0.05s
+DPI scale factor: 1.000000
+nvdrs: Loaded, about to disable thread optimizations.
+nvdrs: b"Couldn't load nvlib." (can be ignored)
+Creating interface object. took 0.00s
+Cleaning stores took 0.00s
+Init translation took 0.04s
+Build styles took 0.00s
+Load screen analysis took 0.00s
+Analyze screens took 0.01s
+Save screen analysis took 0.02s
+Prepare screens took 0.08s
+Save pyanalysis. took 0.00s
+Save bytecode. took 0.02s
+Running _start took 0.00s
+Performance test:
+Interface start. took 0.04s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 1920, 1080)
+swap interval: 1 frames
+Windowed mode.
+Vendor: "b'ATI Technologies Inc.'"
+Renderer: b'Radeon RX 580 Series'
+Version: b'4.6.0 Compatibility Profile Context 22.20.27.09.230330'
+Display Info: None
+Screen sizes: virtual=(1280, 720) physical=(1268, 713) drawable=(1268, 713)
+Maximum texture size: 4096x4096
+Resetting cache.
+Bootstrap to the start of init.init. took 206.35s
+Early init. took 0.00s
+Loader init. took 0.02s
+Loading error handling. took 0.02s
+Loading script. took 0.10s
+Loading save slot metadata. took 0.02s
+Loading persistent. took 0.00s
+Running init code. took 0.03s
+Loading analysis data. took 0.01s
+Analyze and compile ATL. took 0.00s
+Reloading save slot metadata. took 0.02s
+Index archives took 0.00s
+Backing up script files to 'C:\\Users\\Joseph Nogales\\AppData\\Roaming/RenPy/backups\\second':
+Dump and make backups. took 0.05s
+Cleaning cache. took 0.00s
+Making clean stores. took 0.00s
+Initial gc. took 0.04s
+DPI scale factor: 1.000000
+nvdrs: Loaded, about to disable thread optimizations.
+nvdrs: b"Couldn't load nvlib." (can be ignored)
+Creating interface object. took 0.00s
+Cleaning stores took 0.00s
+Init translation took 0.04s
+Build styles took 0.00s
+Load screen analysis took 0.00s
+Analyze screens took 0.01s
+Save screen analysis took 0.02s
+Prepare screens took 0.09s
+Save pyanalysis. took 0.00s
+Save bytecode. took 0.02s
+Running _start took 0.00s
+Performance test:
+Interface start. took 0.04s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 1920, 1080)
+swap interval: 1 frames
+Windowed mode.
+Vendor: "b'ATI Technologies Inc.'"
+Renderer: b'Radeon RX 580 Series'
+Version: b'4.6.0 Compatibility Profile Context 22.20.27.09.230330'
+Display Info: None
+Screen sizes: virtual=(1280, 720) physical=(1268, 713) drawable=(1268, 713)
+Maximum texture size: 4096x4096
+Resetting cache.
+Bootstrap to the start of init.init. took 212.59s
+Early init. took 0.00s
+Loader init. took 0.02s
+Loading error handling. took 0.02s
+Loading script. took 0.10s
+Loading save slot metadata. took 0.02s
+Loading persistent. took 0.00s
+Running init code. took 0.03s
+Loading analysis data. took 0.03s
+Analyze and compile ATL. took 0.00s
+Reloading save slot metadata. took 0.02s
+Index archives took 0.00s
+Backing up script files to 'C:\\Users\\Joseph Nogales\\AppData\\Roaming/RenPy/backups\\second':
+Dump and make backups. took 0.06s
+Cleaning cache. took 0.00s
+Making clean stores. took 0.00s
+Initial gc. took 0.06s
+DPI scale factor: 1.000000
+nvdrs: Loaded, about to disable thread optimizations.
+nvdrs: b"Couldn't load nvlib." (can be ignored)
+Creating interface object. took 0.00s
+Cleaning stores took 0.00s
+Init translation took 0.05s
+Build styles took 0.00s
+Load screen analysis took 0.00s
+Analyze screens took 0.01s
+Save screen analysis took 0.02s
+Prepare screens took 0.09s
+Save pyanalysis. took 0.00s
+Save bytecode. took 0.02s
+Running _start took 0.00s
+Performance test:
+Interface start. took 0.04s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 1920, 1080)
+swap interval: 1 frames
+Windowed mode.
+Vendor: "b'ATI Technologies Inc.'"
+Renderer: b'Radeon RX 580 Series'
+Version: b'4.6.0 Compatibility Profile Context 22.20.27.09.230330'
+Display Info: None
+Screen sizes: virtual=(1280, 720) physical=(1268, 713) drawable=(1268, 713)
+Maximum texture size: 4096x4096
+Resetting cache.
+Bootstrap to the start of init.init. took 221.87s
+Early init. took 0.00s
+Loader init. took 0.02s
+Loading error handling. took 0.02s
+Loading script. took 0.10s
+Loading save slot metadata. took 0.02s
+Loading persistent. took 0.00s
+Running init code. took 0.04s
+Loading analysis data. took 0.01s
+Analyze and compile ATL. took 0.00s
+Reloading save slot metadata. took 0.02s
+Index archives took 0.00s
+Backing up script files to 'C:\\Users\\Joseph Nogales\\AppData\\Roaming/RenPy/backups\\second':
+Dump and make backups. took 0.05s
+Cleaning cache. took 0.00s
+Making clean stores. took 0.00s
+Initial gc. took 0.05s
+DPI scale factor: 1.000000
+nvdrs: Loaded, about to disable thread optimizations.
+nvdrs: b"Couldn't load nvlib." (can be ignored)
+Creating interface object. took 0.00s
+Cleaning stores took 0.00s
+Init translation took 0.04s
+Build styles took 0.00s
+Load screen analysis took 0.00s
+Analyze screens took 0.01s
+Save screen analysis took 0.02s
+Prepare screens took 0.09s
+Save pyanalysis. took 0.00s
+Save bytecode. took 0.02s
+Running _start took 0.00s
+Performance test:
+Interface start. took 0.04s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 1920, 1080)
+swap interval: 1 frames
+Windowed mode.
+Vendor: "b'ATI Technologies Inc.'"
+Renderer: b'Radeon RX 580 Series'
+Version: b'4.6.0 Compatibility Profile Context 22.20.27.09.230330'
+Display Info: None
+Screen sizes: virtual=(1280, 720) physical=(1268, 713) drawable=(1268, 713)
+Maximum texture size: 4096x4096
+Resetting cache.
+Bootstrap to the start of init.init. took 229.67s
+Early init. took 0.00s
+Loader init. took 0.02s
+Loading error handling. took 0.02s
+Loading script. took 0.11s
+Loading save slot metadata. took 0.02s
+Loading persistent. took 0.00s
+Running init code. took 0.04s
+Loading analysis data. took 0.01s
+Analyze and compile ATL. took 0.00s
+Reloading save slot metadata. took 0.02s
+Index archives took 0.00s
+Backing up script files to 'C:\\Users\\Joseph Nogales\\AppData\\Roaming/RenPy/backups\\second':
+Dump and make backups. took 0.06s
+Cleaning cache. took 0.00s
+Making clean stores. took 0.00s
+Initial gc. took 0.05s
+DPI scale factor: 1.000000
+nvdrs: Loaded, about to disable thread optimizations.
+nvdrs: b"Couldn't load nvlib." (can be ignored)
+Creating interface object. took 0.00s
+Cleaning stores took 0.00s
+Init translation took 0.05s
+Build styles took 0.00s
+Load screen analysis took 0.00s
+Analyze screens took 0.01s
+Save screen analysis took 0.02s
+Prepare screens took 0.08s
+Save pyanalysis. took 0.00s
+Save bytecode. took 0.01s
+Running _start took 0.00s
+Performance test:
+Interface start. took 0.04s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 1920, 1080)
+swap interval: 1 frames
+Windowed mode.
+Vendor: "b'ATI Technologies Inc.'"
+Renderer: b'Radeon RX 580 Series'
+Version: b'4.6.0 Compatibility Profile Context 22.20.27.09.230330'
+Display Info: None
+Screen sizes: virtual=(1280, 720) physical=(1268, 713) drawable=(1268, 713)
+Maximum texture size: 4096x4096
+Resetting cache.
+Bootstrap to the start of init.init. took 237.46s
+Early init. took 0.00s
+Loader init. took 0.02s
+Loading error handling. took 0.02s
+Loading script. took 0.11s
+Loading save slot metadata. took 0.02s
+Loading persistent. took 0.00s
+Running init code. took 0.04s
+Loading analysis data. took 0.01s
+Analyze and compile ATL. took 0.00s
+Reloading save slot metadata. took 0.02s
+Index archives took 0.00s
+Backing up script files to 'C:\\Users\\Joseph Nogales\\AppData\\Roaming/RenPy/backups\\second':
+Dump and make backups. took 0.05s
+Cleaning cache. took 0.00s
+Making clean stores. took 0.00s
+Initial gc. took 0.05s
+DPI scale factor: 1.000000
+nvdrs: Loaded, about to disable thread optimizations.
+nvdrs: b"Couldn't load nvlib." (can be ignored)
+Creating interface object. took 0.00s
+Cleaning stores took 0.00s
+Init translation took 0.05s
+Build styles took 0.00s
+Load screen analysis took 0.00s
+Analyze screens took 0.02s
+Save screen analysis took 0.02s
+Prepare screens took 0.09s
+Save pyanalysis. took 0.00s
+Save bytecode. took 0.01s
+Running _start took 0.00s
+Performance test:
+Interface start. took 0.04s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 1920, 1080)
+swap interval: 1 frames
+Windowed mode.
+Vendor: "b'ATI Technologies Inc.'"
+Renderer: b'Radeon RX 580 Series'
+Version: b'4.6.0 Compatibility Profile Context 22.20.27.09.230330'
+Display Info: None
+Screen sizes: virtual=(1280, 720) physical=(1268, 713) drawable=(1268, 713)
+Maximum texture size: 4096x4096
+Resetting cache.
+Bootstrap to the start of init.init. took 245.25s
+Early init. took 0.00s
+Loader init. took 0.02s
+Loading error handling. took 0.02s
+Loading script. took 0.10s
+Loading save slot metadata. took 0.02s
+Loading persistent. took 0.00s
+Running init code. took 0.04s
+Loading analysis data. took 0.01s
+Analyze and compile ATL. took 0.00s
+Reloading save slot metadata. took 0.02s
+Index archives took 0.00s
+Backing up script files to 'C:\\Users\\Joseph Nogales\\AppData\\Roaming/RenPy/backups\\second':
+Dump and make backups. took 0.05s
+Cleaning cache. took 0.00s
+Making clean stores. took 0.00s
+Initial gc. took 0.05s
+DPI scale factor: 1.000000
+nvdrs: Loaded, about to disable thread optimizations.
+nvdrs: b"Couldn't load nvlib." (can be ignored)
+Creating interface object. took 0.00s
+Cleaning stores took 0.00s
+Init translation took 0.04s
+Build styles took 0.00s
+Load screen analysis took 0.00s
+Analyze screens took 0.01s
+Save screen analysis took 0.02s
+Prepare screens took 0.08s
+Save pyanalysis. took 0.00s
+Save bytecode. took 0.01s
+Running _start took 0.00s
+Performance test:
+Interface start. took 0.04s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 1920, 1080)
+swap interval: 1 frames
+Windowed mode.
+Vendor: "b'ATI Technologies Inc.'"
+Renderer: b'Radeon RX 580 Series'
+Version: b'4.6.0 Compatibility Profile Context 22.20.27.09.230330'
+Display Info: None
+Screen sizes: virtual=(1280, 720) physical=(1268, 713) drawable=(1268, 713)
+Maximum texture size: 4096x4096
+Resetting cache.
+Bootstrap to the start of init.init. took 250.00s
+Early init. took 0.00s
+Loader init. took 0.02s
+Loading error handling. took 0.02s
+Loading script. took 0.10s
+Loading save slot metadata. took 0.02s
+Loading persistent. took 0.00s
+Running init code. took 0.04s
+Loading analysis data. took 0.01s
+Analyze and compile ATL. took 0.00s
+Reloading save slot metadata. took 0.02s
+Index archives took 0.00s
+Backing up script files to 'C:\\Users\\Joseph Nogales\\AppData\\Roaming/RenPy/backups\\second':
+Dump and make backups. took 0.05s
+Cleaning cache. took 0.00s
+Making clean stores. took 0.00s
+Initial gc. took 0.04s
+DPI scale factor: 1.000000
+nvdrs: Loaded, about to disable thread optimizations.
+nvdrs: b"Couldn't load nvlib." (can be ignored)
+Creating interface object. took 0.00s
+Cleaning stores took 0.00s
+Init translation took 0.04s
+Build styles took 0.00s
+Load screen analysis took 0.00s
+Analyze screens took 0.01s
+Save screen analysis took 0.02s
+Prepare screens took 0.09s
+Save pyanalysis. took 0.00s
+Save bytecode. took 0.02s
+Running _start took 0.00s
+Performance test:
+Interface start. took 0.04s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 1920, 1080)
+swap interval: 1 frames
+Windowed mode.
+Vendor: "b'ATI Technologies Inc.'"
+Renderer: b'Radeon RX 580 Series'
+Version: b'4.6.0 Compatibility Profile Context 22.20.27.09.230330'
+Display Info: None
+Screen sizes: virtual=(1280, 720) physical=(1268, 713) drawable=(1268, 713)
+Maximum texture size: 4096x4096
+Resetting cache.
+Bootstrap to the start of init.init. took 259.28s
+Early init. took 0.00s
+Loader init. took 0.02s
+Loading error handling. took 0.03s
+Loading script. took 0.11s
+Loading save slot metadata. took 0.02s
+Loading persistent. took 0.00s
+Running init code. took 0.04s
+Loading analysis data. took 0.01s
+Analyze and compile ATL. took 0.00s
+Reloading save slot metadata. took 0.02s
+Index archives took 0.00s
+Backing up script files to 'C:\\Users\\Joseph Nogales\\AppData\\Roaming/RenPy/backups\\second':
+Dump and make backups. took 0.05s
+Cleaning cache. took 0.00s
+Making clean stores. took 0.00s
+Initial gc. took 0.04s
+DPI scale factor: 1.000000
+nvdrs: Loaded, about to disable thread optimizations.
+nvdrs: b"Couldn't load nvlib." (can be ignored)
+Creating interface object. took 0.00s
+Cleaning stores took 0.00s
+Init translation took 0.04s
+Build styles took 0.00s
+Load screen analysis took 0.00s
+Analyze screens took 0.01s
+Save screen analysis took 0.02s
+Prepare screens took 0.08s
+Save pyanalysis. took 0.00s
+Save bytecode. took 0.02s
+Running _start took 0.00s
+Performance test:
+Interface start. took 0.04s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 1920, 1080)
+swap interval: 1 frames
+Windowed mode.
+Vendor: "b'ATI Technologies Inc.'"
+Renderer: b'Radeon RX 580 Series'
+Version: b'4.6.0 Compatibility Profile Context 22.20.27.09.230330'
+Display Info: None
+Screen sizes: virtual=(1280, 720) physical=(1268, 713) drawable=(1268, 713)
+Maximum texture size: 4096x4096
+Resetting cache.
+Bootstrap to the start of init.init. took 264.05s
+Early init. took 0.00s
+Loader init. took 0.02s
+Loading error handling. took 0.02s
+Loading script. took 0.10s
+Loading save slot metadata. took 0.02s
+Loading persistent. took 0.00s
+Running init code. took 0.04s
+Loading analysis data. took 0.01s
+Analyze and compile ATL. took 0.00s
+Reloading save slot metadata. took 0.02s
+Index archives took 0.00s
+Backing up script files to 'C:\\Users\\Joseph Nogales\\AppData\\Roaming/RenPy/backups\\second':
+Dump and make backups. took 0.05s
+Cleaning cache. took 0.00s
+Making clean stores. took 0.00s
+Initial gc. took 0.05s
+DPI scale factor: 1.000000
+nvdrs: Loaded, about to disable thread optimizations.
+nvdrs: b"Couldn't load nvlib." (can be ignored)
+Creating interface object. took 0.00s
+Cleaning stores took 0.00s
 Init translation took 0.05s
 Build styles took 0.00s
 Load screen analysis took 0.00s
@@ -844,33 +839,15 @@ Version: b'4.6.0 Compatibility Profile Context 22.20.27.09.230330'
 Display Info: None
 Screen sizes: virtual=(1280, 720) physical=(1268, 713) drawable=(1268, 713)
 Maximum texture size: 4096x4096
-
-Full traceback:
-  File "game/script.rpy", line 17, in script
-    python:
-  File "F:\Desktop\renpy-8.1.3-sdk\renpy\ast.py", line 1138, in execute
-    renpy.python.py_exec_bytecode(self.code.bytecode, self.hide, store=self.store)
-  File "F:\Desktop\renpy-8.1.3-sdk\renpy\python.py", line 1122, in py_exec_bytecode
-    exec(bytecode, globals, locals)
-  File "game/script.rpy", line 21, in <module>
-    t = transform(child=idle_image, zoom=0.5)
-NameError: name 'transform' is not defined
-
-While running game code:
-  File "game/script.rpy", line 17, in script
-    python:
-  File "game/script.rpy", line 21, in <module>
-    t = transform(child=idle_image, zoom=0.5)
-NameError: name 'transform' is not defined
 Resetting cache.
-Bootstrap to the start of init.init. took 1859.78s
+Bootstrap to the start of init.init. took 273.33s
 Early init. took 0.00s
 Loader init. took 0.02s
 Loading error handling. took 0.02s
-Loading script. took 0.09s
+Loading script. took 0.10s
 Loading save slot metadata. took 0.02s
 Loading persistent. took 0.00s
-Running init code. took 0.03s
+Running init code. took 0.04s
 Loading analysis data. took 0.01s
 Analyze and compile ATL. took 0.00s
 Reloading save slot metadata. took 0.02s
@@ -890,8 +867,8 @@ Build styles took 0.00s
 Load screen analysis took 0.00s
 Analyze screens took 0.01s
 Save screen analysis took 0.02s
-Prepare screens took 0.08s
-Save pyanalysis. took 0.02s
+Prepare screens took 0.09s
+Save pyanalysis. took 0.00s
 Save bytecode. took 0.02s
 Running _start took 0.00s
 Performance test:
@@ -907,39 +884,15 @@ Version: b'4.6.0 Compatibility Profile Context 22.20.27.09.230330'
 Display Info: None
 Screen sizes: virtual=(1280, 720) physical=(1268, 713) drawable=(1268, 713)
 Maximum texture size: 4096x4096
-
-Full traceback:
-  File "game/script.rpy", line 45, in script
-    scene scene-1-bg at half_size:
-  File "F:\Desktop\renpy-8.1.3-sdk\renpy\ast.py", line 1562, in execute
-    show_imspec(self.imspec, atl=getattr(self, "atl", None))
-  File "F:\Desktop\renpy-8.1.3-sdk\renpy\ast.py", line 1387, in show_imspec
-    at_list = [ renpy.python.py_eval(i) for i in at_list ]
-  File "F:\Desktop\renpy-8.1.3-sdk\renpy\ast.py", line 1387, in <listcomp>
-    at_list = [ renpy.python.py_eval(i) for i in at_list ]
-  File "F:\Desktop\renpy-8.1.3-sdk\renpy\python.py", line 1153, in py_eval
-    return py_eval_bytecode(code, globals, locals)
-  File "F:\Desktop\renpy-8.1.3-sdk\renpy\python.py", line 1146, in py_eval_bytecode
-    return eval(bytecode, globals, locals)
-  File "game/script.rpy", line 45, in <module>
-    scene scene-1-bg at half_size:
-NameError: name 'half_size' is not defined
-
-While running game code:
-  File "game/script.rpy", line 45, in script
-    scene scene-1-bg at half_size:
-  File "game/script.rpy", line 45, in <module>
-    scene scene-1-bg at half_size:
-NameError: name 'half_size' is not defined
 Resetting cache.
-Bootstrap to the start of init.init. took 2014.66s
+Bootstrap to the start of init.init. took 363.98s
 Early init. took 0.00s
 Loader init. took 0.02s
 Loading error handling. took 0.02s
-Loading script. took 0.09s
+Loading script. took 0.11s
 Loading save slot metadata. took 0.02s
 Loading persistent. took 0.00s
-Running init code. took 0.03s
+Running init code. took 0.04s
 Loading analysis data. took 0.01s
 Analyze and compile ATL. took 0.00s
 Reloading save slot metadata. took 0.02s
@@ -948,19 +901,64 @@ Backing up script files to 'C:\\Users\\Joseph Nogales\\AppData\\Roaming/RenPy/ba
 Dump and make backups. took 0.05s
 Cleaning cache. took 0.00s
 Making clean stores. took 0.00s
-Initial gc. took 0.04s
+Initial gc. took 0.05s
 DPI scale factor: 1.000000
 nvdrs: Loaded, about to disable thread optimizations.
 nvdrs: b"Couldn't load nvlib." (can be ignored)
 Creating interface object. took 0.00s
 Cleaning stores took 0.00s
-Init translation took 0.04s
+Init translation took 0.05s
+Build styles took 0.01s
+Load screen analysis took 0.00s
+Analyze screens took 0.03s
+Save screen analysis took 0.03s
+Prepare screens took 0.10s
+Save pyanalysis. took 0.00s
+Save bytecode. took 0.02s
+Running _start took 0.00s
+Performance test:
+Interface start. took 0.04s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 1920, 1080)
+swap interval: 1 frames
+Windowed mode.
+Vendor: "b'ATI Technologies Inc.'"
+Renderer: b'Radeon RX 580 Series'
+Version: b'4.6.0 Compatibility Profile Context 22.20.27.09.230330'
+Display Info: None
+Screen sizes: virtual=(1280, 720) physical=(1268, 713) drawable=(1268, 713)
+Maximum texture size: 4096x4096
+Resetting cache.
+Bootstrap to the start of init.init. took 386.79s
+Early init. took 0.00s
+Loader init. took 0.02s
+Loading error handling. took 0.02s
+Loading script. took 0.10s
+Loading save slot metadata. took 0.02s
+Loading persistent. took 0.00s
+Running init code. took 0.04s
+Loading analysis data. took 0.01s
+Analyze and compile ATL. took 0.00s
+Reloading save slot metadata. took 0.02s
+Index archives took 0.00s
+Backing up script files to 'C:\\Users\\Joseph Nogales\\AppData\\Roaming/RenPy/backups\\second':
+Dump and make backups. took 0.05s
+Cleaning cache. took 0.00s
+Making clean stores. took 0.00s
+Initial gc. took 0.05s
+DPI scale factor: 1.000000
+nvdrs: Loaded, about to disable thread optimizations.
+nvdrs: b"Couldn't load nvlib." (can be ignored)
+Creating interface object. took 0.00s
+Cleaning stores took 0.00s
+Init translation took 0.05s
 Build styles took 0.00s
 Load screen analysis took 0.00s
-Analyze screens took 0.01s
+Analyze screens took 0.02s
 Save screen analysis took 0.02s
-Prepare screens took 0.08s
-Save pyanalysis. took 0.02s
+Prepare screens took 0.11s
+Save pyanalysis. took 0.00s
 Save bytecode. took 0.02s
 Running _start took 0.00s
 Performance test:
